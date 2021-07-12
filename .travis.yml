@@ -20,3 +20,5 @@ script:
   - python main-setup.py --heroku main,python-3.9.5
   - python main-setup.py --clean
   - python main-setup.py --setup --secure main
+  - python src/manage.py test
+  
